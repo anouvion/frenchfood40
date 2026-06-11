@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(git:*)",
+      "Bash(ls:*)",
+      "Bash(dir:*)",
+      "Bash(type:*)",
+      "Bash(findstr:*)",
+      "Bash(python -m http.server:*)",
+      "Bash(npx serve:*)"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(del:*)",
+      "Bash(rmdir:*)",
+      "Bash(Remove-Item:*)",
+      "Bash(git push --force:*)"
+    ]
+  }
+}
