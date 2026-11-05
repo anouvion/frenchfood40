@@ -133,6 +133,14 @@ nav a:hover { color: var(--bleu); }
 .contact-btn { display: inline-block; background: var(--or); color: var(--blanc); text-decoration: none; padding: 1rem 2.5rem; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.04em; transition: background 0.2s; }
 .contact-btn:hover { background: #b3852e; }
 
+.revelation { padding: 100px 5vw; max-width: 1100px; margin: 0 auto; }
+.revelation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border: 1px solid var(--ligne); margin-top: 3rem; }
+.revelation-case { background: var(--blanc); padding: 2.25rem 2.25rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.revelation-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; color: var(--or); text-transform: uppercase; }
+.revelation-case strong { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 400; color: var(--bleu); line-height: 1.3; }
+.revelation-case p { font-size: 0.88rem; color: var(--gris); line-height: 1.6; }
+.revelation-cta { text-align: center; margin-top: 3rem; }
+
 .partenaires { background: #F2EEE6; padding: 100px 5vw; }
 .partenaires-inner { max-width: 1000px; margin: 0 auto; }
 .partenaires-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-top: 3rem; }
@@ -199,6 +207,7 @@ footer strong { color: var(--blanc); font-family: 'Playfair Display', serif; }
   .equipe-grid { grid-template-columns: 1fr; }
   .laureats-liste { grid-template-columns: 1fr; }
   .partenaires-grid { grid-template-columns: 1fr; }
+  .revelation-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 480px) {
   .criteres-grid { grid-template-columns: 1fr; }
