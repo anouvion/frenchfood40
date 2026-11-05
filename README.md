@@ -50,4 +50,4 @@ Contact : contact@frenchfood40.fr
 
 ## Édition #1
 
-Lancement été 2026, révélation du palmarès mi-2027 à Paris, sur invitation.
+Lancement début 2027, révélation du palmarès mi-2027 à Paris, sur invitation.
