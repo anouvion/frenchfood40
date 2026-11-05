@@ -170,7 +170,16 @@ footer strong { color: var(--blanc); font-family: 'Playfair Display', serif; }
 .about-author__text li strong { color: var(--bleu); font-weight: 600; }
 .about-author__text a { color: var(--bleu); text-decoration: underline; text-underline-offset: 3px; }
 .about-author__text a:hover { color: var(--or); }
-.about-author__coequipiere { border-top: 1px solid var(--ligne); padding-top: 1rem; }
+
+/* Variante sombre, pour la bio d'Emilie dans la section Qui sommes-nous (fond bleu) */
+.about-author__inner--dark { max-width: none; margin: 0; }
+.about-author__text--dark .about-author__name { color: var(--blanc); }
+.about-author__text--dark .about-author__role { color: var(--or); }
+.about-author__text--dark > p { color: rgba(255,255,255,0.7); }
+.about-author__text--dark li { color: rgba(255,255,255,0.7); }
+.about-author__text--dark li::before { color: var(--or); }
+.about-author__text--dark li strong { color: var(--blanc); }
+.about-author__text--dark ul { margin-top: 0.25rem; }
 
 @media (max-width: 768px) {
   .about-author { padding: 72px 5vw; }
