@@ -65,6 +65,8 @@ ul.clean li::before { content:""; position:absolute; left:0; top:1.9mm; width:1.
 .eyebrow-marque { font-size:18pt; letter-spacing:.06em; }
 .maquette { display:grid; grid-template-columns:1fr 1fr; gap:6mm; margin-top:6mm; }
 .maquette img { display:block; width:100%; height:auto; border:1px solid var(--line); box-shadow:0 2mm 6mm rgba(24,44,72,.12); }
+.pdf-link { color:var(--navy); font-weight:700; text-decoration:underline; }
+@media print { .pdf-link { display:none; } }
 </style></head><body>
 
 <section class="page">
@@ -73,7 +75,7 @@ ul.clean li::before { content:""; position:absolute; left:0; top:1.9mm; width:1.
       <div class="eyebrow eyebrow-marque">French Food 40 · Édition #1 · 2027</div>
       <h1>Un palmarès annuel qui révèle les PME et ETI qui font l'alimentaire français, sur le modèle du French Tech Next 40/120.</h1>
       <p class="sub">Et un rendez-vous éditorial à installer chaque année, autour de 40 histoires d'entreprises et de territoires.</p>
-      <div class="url"><a href="https://frenchfood40.netlify.app/">frenchfood40.netlify.app</a></div>
+      <div class="url"><a href="https://frenchfood40.netlify.app/">frenchfood40.netlify.app</a> · <a class="pdf-link" href="dossier_partenaires_french_food_40.pdf" download>Télécharger en PDF</a></div>
       <span class="chip">Proposition de partenariat média</span>
       <div class="stats">
         <div class="stat"><div class="n">300+</div><div class="l">PME et ETI agroalimentaires dans le vivier, de toutes les régions</div></div>
